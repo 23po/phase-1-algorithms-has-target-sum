@@ -1,9 +1,21 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+ for ( let  i = array[0]; i <= array.length; i++){
+  for (let j = array[0]; j <= array.length; j++) {
+    var sum = i + j;
+    if (sum = target) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  
+ }
+
 }
 
 /* 
-  Write the Big O time complexity of your function here
+  o(n^2)
 */
 
 /* 
